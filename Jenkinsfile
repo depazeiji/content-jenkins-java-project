@@ -8,4 +8,10 @@ pipeline{
       }
     }
   }
+
+  post{
+    always{
+      archive 'build/*.jar'
+    }
+  }
 }
