@@ -11,7 +11,7 @@ pipeline{
 
   post{
     always{
-      archive 'build/*.jar'
+      archive 'dist/*.jar'
     }
   }
 }
